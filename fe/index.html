@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Control Panel</title>
+
+  <!-- JS LIB -->
+  <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="node_modules/echarts/dist/echarts.min.js"></script>
+
+  <!-- CSS LIB -->
+  <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="lib/weather-icons/css/weather-icons.min.css">
+  <link rel="stylesheet" type="text/css" href="lib/weather-icons/css/weather-icons-wind.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> -->
+
+</head>
+
+<body>
+  <h1 style="font-family: 'FontAwesome';">&#xf240;<i class="wi wi-night-sleet"></i></h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" id="temperature"></div>
+      <div class="col-md-6" id="humidity"></div>
+    </div>
+  </div>
+  <!-- <div id="myChart" style="width: 600px; height: 400px;"></div> -->
+  <script type="text/javascript" src="js/ws.js"></script>
+  <!-- <script type="text/javascript" src="js/charts.js"></script> -->
+</body>
+</html>
